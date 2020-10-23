@@ -1,0 +1,25 @@
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img_left {
+    float: left;
+}
+
+
+.img_right {
+    float: right;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}

@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.container {
+    min-height: 100vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: palegoldenrod;
+    padding: 20px 5% 20px 5%;
+}
+
+.banner {
+    background: red;
+    height: 150px;
+    width: 100%;
+    border: solid gold 1px;
+}
+
+.banner-image {
+    height: 100%;
+    max-width: 100%;
+}
+
+.header {
+    margin-left: 1px;
+    margin-right: 1px;
+    font-size: 200%;
+    border-bottom:2px solid black;
+}
+
+.article {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid black;
+    padding: 5px;
+    background: lightgoldenrodyellow;
+}
+
+a:hover {
+    color: deeppink;
+}

@@ -1,0 +1,21 @@
+h1 {
+    color: blue;
+    font-size: 50px;
+}
+
+p {
+    color: darkslategrey;
+    font-size: small;
+}
+
+table, tr, td {
+    border: 1px dotted darkblue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: square;
+}
