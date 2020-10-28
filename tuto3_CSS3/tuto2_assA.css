@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.header-image {
+    border-radius: 10px;
+    box-shadow: black 5px 5px;
+    transform: rotate(5deg);
+    max-width: 100%;
+    margin: 5% 5% 2%;
+}
+
+.header-header {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+}
+
+.main-gallery {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.main-gallery-figure {
+    border: #ccc solid 1px;
+    margin: 0 10px 15px;
+}
+
+.main-gallery-image {
+    width: 100%;
+}
+
+.main-gallery-caption {
+    text-align: center;
+}
+
+.main-article {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.main-article-column {
+    flex-basis: 260px;
+    padding-left: 15px;
+    border-bottom: #ccc solid 2px;
+    margin-bottom: 15px;
+}
+
+.main-article-column p{
+    margin-top: 0;
+}
+
+.quote {
+    float: right;
+    width: 100px;
+    background: aliceblue;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+}
+
+blockquote {
+    margin: 0; /* gets rid of the default blockquote margin */
+}
+
+.main-article-image {
+    float: left;
+    max-width: 60%;
+    margin-right: 10px;
+}
+
+.footer {
+    text-align: center;
+    width: 100vm;
+    background: lightgray;
+    padding: 20px;
+    margin: 30px 0 0;
+}
+
+@media(max-width: 800px) {
+    .main {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .main-gallery {
+        width: 50%;
+    }
+
+    .main-article-column {
+        flex-basis: 100%;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .main-article-image {
+        max-width: 30%;
+    }
+}
+
+h1, .quote, footer {
+    font-family: 'Tangerine', serif;
+}
+
+h1, footer {
+    font-size: 250%;
+}
+
+.quote {
+    font-size: 150%;
+}
+
+.main-article-item, figcaption {
+    font-family: 'Turret Road', serif;
+}
