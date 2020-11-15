@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial 6 task D</title>
+    <link rel="stylesheet" href="6d.css">
+</head>
+<body>
+<form onsubmit="addTableRow(); return false">
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <label for="birthYear">Birth year</label><br>
+    <input type="number" id="birthYear" name="birthYear" required><br><br>
+    <input type="submit" value="Add"><br><br>
+</form>
+
+<table id="table">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Birth year</th>
+    </tr>
+</table>
+<script src="6d.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+#table {
+    width: 50%;
+}
+
+#table th {
+    background: lightsalmon;
+    padding: 5px;
+}
+
+#table td {
+    background: linen;
+    padding: 3px;
+}
