@@ -1,7 +1,7 @@
 {
   "name": "tasks_solutions",
   "version": "1.0.0",
-  "description": "Homework tasks for Internet Technoligies(PJATK 5th semester) tutorials",
+  "description": "Homework tasks for Internet Technologies(PJATK 5th semester) tutorials",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
