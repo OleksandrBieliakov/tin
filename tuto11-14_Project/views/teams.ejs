@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<header>
+    <%- include('header', {user_name: user_name}); %>
+</header>
+
+<form action="/teams" method="POST">
+        <label for="title">Team Name</label>
+        <input type="text" id="title" name="title" required>
+    <button type="submit">New Team</button>
+</form>
+
+<ul>
+    <% teams.forEach(function(team) { %>
+        <li>
+            <a href="/teams/<%= team.id %>"><%= team.title %></a>
+        </li>
+    <% }); %>
+</ul>
+</body>
